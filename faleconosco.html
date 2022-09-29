@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConfraBar - Fale Conosco</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="barra-superior">
+            <div class="container">
+                Horário de funcionamento: <strong>20hs às 02hs</strong>
+                Telefone: (24) 9999-9999 |
+                <a href="#"> <img alt="Facebook" src="img/face-redondo.jpg" width="30"/></a>
+                <a href="#"> <img alt="Instagram" src="img/insta-redondo.jpg" width="30"/></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+        <a tittle="Fale Conosco" class="botao-menu" href="faleconosco.html" target="_blank">Fale Conosco</a>
+        <a tittle="Onde Estamos" class="botao-menu" href="ondeestamos.html" target="_blank">Onde Estamos</a>
+        <a tittle="Cardápio" class="botao-menu" href="cardapio.html" target="_blank">Cardápio</a>
+        <a title="Página Inicial" class="botao-menu" href="index.html" target="_blank">Home</a>
+        </nav>
+    </div>
+
+    <section class="sec_cardapio">
+        <div class="container">
+            <img alt="Logo da Empresa" title="Logo da empresa Confra Bar" src="img/logo.jpg" width="200"/>
+    </section>
+
+    <section class="container"> 
+        <p><h4>Fale Conosco</h4></p>
+
+        <div>
+            <!--Metodo get: dados passados pela url/ post: dados passados pela requisição.-->
+            <form enctype="application/x-www-form-urlencoded" method="post">
+                <p><label for="nomecompleto">Nome:</label>
+                <input type="text" id="nomecompleto" placeholder="Digite seu nome completo."/>
+                </p>
+
+                <p><label for="telefone">Telefone:</label>
+                <input type="number" id="telefone" placeholder="Digite seu telefone."/>
+                </p>
+
+                <p><label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Digite seu email."/>
+                </p>
+
+                <p><label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem"></textarea>
+                </p>
+
+                <input class="botao-destaque" type="submit" value="OK" />
+            </form>
+            <br/>
+        </div>
+    </section>
+
+        <footer style="background-color:goldenrod;">
+            <div class="container">
+                    <div class="coluna">
+                    <h3><strong>Onde Estamos:</h3></strong>
+                    Rua dos Bêbados, sn - Barra Mansa, RJ, 27400-000
+                    </div>
+                    
+                    <div class="coluna">
+                    <h3><strong>Contato:</h3></strong>
+                    <a href=tel:249999-9999>Telefone: (24) 9999-99999</a> 
+                    <p><a href="mailto:contato@confrabar.com.br">Email:contato@confrabar.com.br</a></p>
+                    </div>
+                    
+                    <div class="coluna">
+                    <h3><strong>Redes Socias:</h3></strong>
+                        <a href="#"><img alt="Facebook" src="img/face-redondo.jpg"/></a>
+                        <a href="#"><img alt="Instagram" src="img/insta-redondo.jpg"/></a>
+                    </div>
+            </div>
+            <br class="clearfix"/>
+            <div class="direitos_reservados">
+                Todos os direitos reservados @ 2022.
+                <a href="termodeuso.html" target="_blank">Termos de Uso</a> e <a href="politicadeprivacidade.html" target="_blank">Política de Privacidade</a><br/>
+                <p><a href="https://www.instagram.com/karla.terra/"><img alt="Instagram" src="img/insta-redondo.jpg" width="15"/> Criado por Karla Terra</p></a>
+        </footer>
+    </body>
+</html>              

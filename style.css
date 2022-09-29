@@ -1,0 +1,190 @@
+.clearfix{
+    clear:both;
+}
+
+body {
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.barra-superior {
+    border-bottom: 1px solid white;
+    color:white;
+    font-size: 12px; 
+    background-color:goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    color: rgb(112, 111, 111);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    float: right;
+    margin-top: 30px;
+}
+
+nav a { /*formata os links do menu*/
+    color: rgb(112,111,111);
+    text-decoration: none; /*pra tirar a linha azul do link*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;    
+}
+
+.botao-menu { /*formata os botoes do menu*/
+    background-color:goldenrod;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 20px;
+    float: right;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.botao-destaque { /*formatação botão de pedido da pagina*/
+    background-color:black;
+    color: goldenrod;
+    padding: 10px 20px;
+    border-radius:20px; /*arredonda a borda do botão*/
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.imagem_fundo{
+    height: 560px;
+    color:black;
+    background-image: url(img/inicio_fundo1080x675.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: rgb(42,36,33);
+}
+
+.sec01 .titulo {
+    font-size: 42px;
+    padding-top: 50px;
+}
+
+.sec01 .titulo2 {
+    font-size: 32px;
+    padding-top: 30px;
+    line-height: 30%;
+}
+
+.coluna {
+    width: 33%;
+    float:left;
+    font-size: 12px;
+}
+
+.coluna, .coluna a {
+    font-size: 12px;
+    color:black;
+}
+
+.coluna img{
+    width: 40px;
+}
+
+.direitos_reservados {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px; /*distância texto para final*/
+    font-size: 12px;
+}
+
+.direitos_reservados a {
+    color:white;
+    text-decoration: none;
+}
+
+.sec_cardapio{
+    height: 230px;
+    color:black;
+    background-image: url(img/inicio_fundo1080x675.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+    background-color: rgb(42,36,33);
+}
+
+.titulo_cardapio {
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.coluna_metade {
+    width: 50%;
+    float:left;
+    font-size: 12px;
+}
+
+.coluna_metade img{
+    width:200px;
+    height:150px;
+}
+
+.box_cardapio {
+    height: 250px;
+    background: #f2f2f2; /*altera cor fundo do box*/
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .box {
+    float: left;
+    width: 50%;
+    padding: 5%;
+    color: #fff;
+  }
+
+  .boxdalista{
+    background-color: #f2f2f2;
+  }
+  
+  .caixadepedidos {
+    padding-top: 10px;
+  }
+
+  @media screen and (max-width:560px){
+    .barra-superior .container {
+    margin-left: 10px;
+    }
+    .sec01 img{
+        width: 100%;
+    }
+    nav{
+        margin-right: 10px;
+        float: right;
+    }
+    .titulo, .titulo2, .botao-destaque {
+        margin-left: 10px;
+    }
+    section{
+        text-align: center;
+        padding-bottom: 55px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .coluna{
+        width: 100%;
+        border-bottom: 1px solid rgb(255,255,255);
+        padding-bottom: 5px;
+        padding-left: 20px;
+    }
+}
+
