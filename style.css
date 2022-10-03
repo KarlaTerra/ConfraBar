@@ -65,7 +65,7 @@ nav a { /*formata os links do menu*/
 .imagem_fundo{
     height: 560px;
     color:black;
-    background-image: url(img/inicio_fundo1080x675.webp);
+    background-image: url(./img/inicio_fundo1080x675.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -94,7 +94,7 @@ nav a { /*formata os links do menu*/
     color:black;
 }
 
-.coluna img{
+.coluna {
     width: 40px;
 }
 
@@ -115,7 +115,7 @@ nav a { /*formata os links do menu*/
 .sec_cardapio{
     height: 230px;
     color:black;
-    background-image: url(img/inicio_fundo1080x675.webp);
+    background-image: url(./img/inicio_fundo1080x675.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size:auto;
